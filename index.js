@@ -47,6 +47,14 @@ flint.hears('/whoami', function(bot, trigger) {
   bot.say("markdown", outputString);
 });
 
+/* On mention with command say goodbye and leave the room
+*/
+flint.hears('/leave', function(bot, trigger) {
+  console.log("/leave fired");
+  bot.say("OK.  I know when I'm not wanted...");
+  bot.exit();
+});
+
 /* On mention with command arguments
 ex User enters @botname /echo phrase, the bot will take the arguments and echo them back
 */
