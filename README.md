@@ -1,4 +1,13 @@
-# sparkbotstarter
+# sparkbotstarter-flint5
+Starter kit template for a simple Cisco Spark bot using node-flint version 5
+
+This project is a fork of the original sparkbotstarter here: https://github.com/valgaze/sparkbotstarter
+
+The goal of the project was to help determine what type of tasks developers might face if they want to update their own bots to flint-5.    [Some of the tasks discovered](flint4-5-migrationNotes.md).  You can also look at the changes in the intial-flint-5-changes branch of this project.
+
+Another goal of this project is to determine the steps needed for a bot built using flint5 to work with the [bot-test-framework](https://github.com/jpjpjp/bot-test-framework-example)
+
+# Original sparkbotstart release notes
 Starter kit template for a simple Cisco Spark bot
 
 (For a more detailed explanation, see the companion blog post here: https://medium.com/@valgaze/from-zero-to-cisco-spark-bot-nodejs-69224cb9ebb5#.bq5vrzi17)
